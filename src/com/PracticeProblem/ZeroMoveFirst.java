@@ -8,7 +8,7 @@ public class ZeroMoveFirst {
         int arr1[] = new int[arr.length];
         int count = arr1.length-1;
         for(int i = arr.length-1; i>=0; i--){
-            if(arr[i] != 0){
+            if(arr[i] != 0) {
                 arr1[count--] = arr[i];
             }
         }
