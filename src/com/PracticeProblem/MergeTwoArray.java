@@ -11,7 +11,7 @@ class Main {
         while(i<a.length && j<b.length){
             if(a[i]<b[j]){
                 c[k++] = a[i++];
-            }else{
+            }else {
                 c[k++] = b[j++];
             }
         }
